@@ -1,0 +1,10 @@
+id: allure-sample-plugin
+name: Allure Sample Plugin
+description: Allure Sample Plugin - Creating a custom tab with test details.
+extensions:
+  - allure.sample.plugin.CustomPlugin
+  - allure.sample.plugin.CustomWidget
+jsFiles:
+  - index.js
+cssFiles:
+  - styles.css
